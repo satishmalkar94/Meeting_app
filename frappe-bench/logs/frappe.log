@@ -1,0 +1,25 @@
+[ERROR] 2019-08-29 13:40:38,071 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes

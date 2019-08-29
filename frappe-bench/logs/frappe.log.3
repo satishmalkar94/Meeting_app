@@ -1,0 +1,1847 @@
+[DEBUG] 2019-08-28 14:31:25,343 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:37:19,662 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:38:20,034 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:39:20,553 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:40:20,943 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:41:21,190 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:42:21,502 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:43:22,089 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:44:23,616 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:45:24,044 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:47:24,553 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:48:24,935 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:49:25,169 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:52:59,432 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:53:59,933 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 14:55:00,381 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-28 15:01:58,155 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 52, in application
+    init_request(request)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 105, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 150, in init
+    local.conf = _dict(get_site_config())
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 221, in get_site_config
+    config.update(get_file_json(site_config))
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1004, in get_file_json
+    return json.load(f)
+  File "/usr/lib/python3.5/json/__init__.py", line 268, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 7 column 1 (char 116)
+[ERROR] 2019-08-28 15:02:12,118 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 52, in application
+    init_request(request)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 105, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 150, in init
+    local.conf = _dict(get_site_config())
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 221, in get_site_config
+    config.update(get_file_json(site_config))
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1004, in get_file_json
+    return json.load(f)
+  File "/usr/lib/python3.5/json/__init__.py", line 268, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 7 column 1 (char 116)
+[DEBUG] 2019-08-28 15:05:55,002 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:07:19,610 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:08:22,646 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:09:23,107 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:10:23,403 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:11:23,733 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:12:24,005 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:13:24,290 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:14:24,509 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:15:24,819 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:16:25,095 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:17:25,380 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:18:25,641 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:19:25,899 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:20:26,239 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:21:26,910 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:22:28,254 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:23:28,801 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:24:29,077 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:25:30,438 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:26:31,071 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:27:32,616 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:28:33,178 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:29:33,447 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:30:34,489 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:31:34,698 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:32:35,167 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:33:35,419 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:34:35,744 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:35:36,012 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:36:36,270 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:37:36,495 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:38:36,817 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:39:37,076 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:40:37,384 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:41:37,665 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:42:37,929 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:43:38,171 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:44:38,409 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:45:38,667 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:46:38,910 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:47:39,170 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:48:39,427 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:49:39,632 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:50:39,856 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:51:40,155 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:52:40,542 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:53:40,741 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:54:40,926 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:55:41,188 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:56:41,667 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:57:46,399 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:58:46,643 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 15:59:46,920 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:00:47,513 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:01:47,778 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:02:48,147 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:03:50,819 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:04:51,924 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:05:52,444 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:06:52,740 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:07:52,946 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:08:53,298 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:09:53,755 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:10:53,968 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:11:54,176 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:12:54,453 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:13:54,786 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:14:55,256 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:15:55,535 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:16:55,802 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:17:56,059 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:18:56,323 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:19:56,566 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:20:57,157 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:21:57,485 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:22:57,759 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:23:57,989 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:24:58,258 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:25:58,483 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:26:58,781 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:27:59,145 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:28:59,418 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 16:29:59,660 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:13:15,730 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:14:17,411 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:15:18,527 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:16:18,849 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:17:19,070 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:18:19,369 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:19:19,812 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:20:20,178 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:21:20,398 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:22:20,654 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:23:20,843 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:24:21,087 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:25:21,316 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:26:21,510 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:27:21,714 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:28:22,144 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:29:22,409 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:30:22,735 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:31:22,997 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:32:23,343 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:33:23,631 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:34:23,909 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:35:24,191 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:36:24,544 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:37:24,795 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:38:25,047 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:39:25,370 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:40:25,624 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:41:25,934 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:42:26,139 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:43:26,370 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:44:26,682 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:45:27,456 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:46:27,701 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:47:28,093 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:48:28,534 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:49:28,739 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:50:28,964 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:51:29,229 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:52:29,444 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:53:29,685 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:54:29,963 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:55:30,150 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:56:30,662 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:57:30,878 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:58:31,103 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 17:59:31,614 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:00:32,223 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:01:33,030 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:02:33,361 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:03:33,669 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:04:33,951 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:05:34,194 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:06:34,654 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:07:34,882 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:08:35,143 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:09:35,390 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:10:35,692 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:11:35,909 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:12:36,245 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:13:36,500 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:14:36,722 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:15:36,987 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:16:37,236 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:17:37,449 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:18:37,638 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:19:37,872 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:20:38,173 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:21:38,389 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:22:38,598 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:23:38,827 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:24:39,111 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:25:39,440 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:26:39,621 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:27:39,853 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:28:40,072 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:29:40,267 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:30:40,510 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:31:40,705 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:32:41,046 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:33:41,330 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:34:41,566 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:35:41,840 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:36:42,099 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:37:42,330 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:38:42,771 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:39:43,141 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:40:43,459 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:41:43,650 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:42:43,893 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:43:44,111 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:44:44,304 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:45:44,543 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:46:44,795 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:47:45,076 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-28 18:48:37,535 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-28 18:48:40,943 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-28 18:48:45,329 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:49:45,576 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:50:45,821 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:51:46,060 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:52:46,347 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:53:46,596 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:54:46,861 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:55:47,128 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:56:47,462 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:57:47,725 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-28 18:58:08,419 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-28 18:58:08,422 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-28 18:58:48,001 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 18:59:48,259 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:00:48,606 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:01:48,817 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:02:49,301 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:03:49,608 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:04:49,972 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:05:50,345 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:06:50,606 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:07:50,874 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-28 19:08:51,271 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:13:37,507 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:14:37,875 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:15:38,080 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:16:38,344 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:17:38,603 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:18:38,808 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:19:39,033 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:20:39,306 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:21:39,558 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:22:39,772 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:23:40,010 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:24:40,295 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:25:40,579 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:26:40,817 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:27:41,031 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:28:41,284 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:29:41,522 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:30:41,763 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:31:42,053 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:32:42,336 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:33:42,791 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:34:43,019 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:35:43,270 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:36:43,522 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:37:43,745 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:38:43,996 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:39:44,196 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:40:44,466 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:41:44,659 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:42:44,885 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:43:45,098 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:44:45,359 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:45:45,604 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:46:45,791 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:47:45,988 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:48:46,298 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:49:46,520 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:50:46,727 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:51:46,933 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:52:47,176 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:53:47,394 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:54:47,592 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:55:47,829 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:56:48,094 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:57:48,347 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:58:48,565 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 10:59:48,817 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:00:49,245 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:01:49,496 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:02:49,719 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:03:49,956 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:04:50,171 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:05:50,460 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:06:50,681 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:07:50,915 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:08:51,146 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:09:51,417 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:10:51,633 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:11:51,849 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:12:52,117 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:13:52,416 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:14:52,790 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:15:53,023 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:16:53,313 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:17:53,556 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:18:54,599 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:19:55,061 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:20:56,581 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:21:57,093 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:24:41,995 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:25:45,883 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:26:46,093 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:27:46,408 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:28:48,366 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:29:48,793 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:30:49,044 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:31:49,405 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:32:49,649 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:33:49,888 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:34:50,160 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:35:50,397 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:36:50,676 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:37:50,922 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:38:51,163 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:39:51,417 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:40:51,708 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:41:51,986 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:42:52,248 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:43:52,490 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:44:52,795 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 11:55:35,882 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-08-29 11:55:35,882 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-08-29 11:55:35,882 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-08-29 11:55:35,882 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-08-29 11:55:36,151 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-08-29 11:55:36,155 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 11:56:33,243 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 11:57:33,463 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 11:58:10,939 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 11:58:10,939 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 11:58:10,978 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 11:58:33,799 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 11:59:33,557 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 11:59:33,711 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 11:59:34,016 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 12:05:26,891 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "frappe.realtime.can_subscribe_doc"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: can_subscribe_doc() missing 3 required positional arguments: 'doctype', 'docname', and 'sid'
+[ERROR] 2019-08-29 12:05:27,046 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+TypeError: can_subscribe_doc() missing 3 required positional arguments: 'doctype', 'docname', and 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 12:06:22,756 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 12:06:28,185 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 12:06:28,235 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 12:07:22,953 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:09:45,609 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:10:45,916 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:11:46,142 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:12:46,391 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 12:13:32,054 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 12:13:32,190 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 12:13:46,621 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:14:47,021 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:15:47,239 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 12:16:22,695 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    # 		as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 12:16:22,704 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    # 		as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-08-29 12:16:44,825 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "demo"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 12:16:44,831 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 12:16:47,494 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:17:47,724 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:18:47,972 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:19:48,201 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:20:48,472 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:21:48,679 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:22:48,917 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:23:49,150 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:24:49,353 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:25:49,629 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:26:50,023 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:27:50,257 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:28:50,754 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:29:51,007 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:30:51,216 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:31:51,560 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:32:51,806 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:33:52,037 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:34:52,306 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:35:52,510 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:36:52,816 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:37:53,029 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:38:53,280 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:39:53,496 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:40:53,863 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:41:54,278 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:42:54,584 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:43:54,821 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:44:55,061 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:45:55,349 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:46:55,618 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:47:55,874 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:48:56,241 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:49:56,475 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:50:56,742 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:51:56,998 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:52:57,289 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[ERROR] 2019-08-29 12:53:50,429 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py:
+Site: test
+Form Dict: {
+ "cmd": "meeting.api.send_invitation_emails",
+ "meeting": "meeting1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+[ERROR] 2019-08-29 12:53:50,434 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/meeting/meeting/api.py", line 18, in send_invitation_emails
+    as_bulk=True
+TypeError: sendmail() got an unexpected keyword argument 'as_bulk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-08-29 12:53:57,515 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:54:57,735 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:55:58,123 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:56:58,428 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:57:58,685 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:58:58,977 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 12:59:59,356 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:00:59,664 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:01:59,955 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:03:00,225 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:04:00,519 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:05:00,770 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:06:01,085 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:07:01,347 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:08:01,635 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:09:01,861 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:10:02,230 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:11:02,561 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:12:02,839 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:13:03,141 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:14:03,445 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:15:03,737 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:16:04,083 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:17:04,544 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:18:04,821 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:19:05,084 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:20:05,398 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:21:05,644 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:22:05,909 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:23:06,161 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:24:06,486 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:25:06,735 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:26:07,256 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:27:07,497 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:28:07,848 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:29:08,087 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:30:08,375 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:31:08,682 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:32:08,971 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:33:09,196 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:34:09,506 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test
+[DEBUG] 2019-08-29 13:35:09,800 | /home/satish/Desktop/Project/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: test
+Queued events for site test

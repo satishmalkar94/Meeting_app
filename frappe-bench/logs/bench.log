@@ -1,0 +1,10 @@
+2019-08-28 14:33:00,958 INFO getting app erpnext
+2019-08-28 14:33:00,982 INFO git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2019-08-28 14:33:27,135 INFO installing erpnext
+2019-08-28 14:33:27,136 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-08-28 14:34:12,581 INFO bench build --app erpnext
+2019-08-28 14:35:31,626 INFO getting app meeting
+2019-08-28 14:35:31,629 INFO git clone https://github.com/frappe/meeting  --depth 1 --origin upstream
+2019-08-28 14:35:42,164 INFO installing meeting
+2019-08-28 14:35:42,164 INFO ./env/bin/pip install -q  -e ./apps/meeting 
+2019-08-28 14:35:45,084 INFO bench build --app meeting
